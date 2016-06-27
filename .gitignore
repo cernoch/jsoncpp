@@ -42,7 +42,6 @@ jsoncpp_lib_static.dir/
 /src/Makefile
 /src/jsontestrunner/Makefile
 /src/jsontestrunner/jsontestrunner_exe
-/src/lib_json/Makefile
 /src/test_lib_json/Makefile
 /src/test_lib_json/jsoncpp_test
 
@@ -50,3 +49,7 @@ jsoncpp_lib_static.dir/
 .project
 .cproject
 /.settings/
+
+# CyberCalc custom build
+src/lib_json/*.a
+src/lib_json/*.o
